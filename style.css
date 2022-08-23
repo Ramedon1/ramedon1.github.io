@@ -27,10 +27,18 @@
   color: black;
 }
 
+  .profpic {
+  width: 125px;
+  height: 125px;
+  border: 1px solid #cbcbcb;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+
   .divider {
   height: 1px;
   border-top: 1px solid #00000025;
-  border-radius: 1px solid #cbcbcb;
+  border-radius: 1px;
   margin: 20px 0px;
   width: auto;
   align-items: center;
