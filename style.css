@@ -1,0 +1,160 @@
+body {
+  font-size: 14px;
+  background: black;
+  font-family: poppins;
+  font-weight: 400;
+  color: white;
+  padding: 5px 5px;
+  -webkit-tap-highlight-color: #FFFFFF00;
+  -moz-tap-highlight-color: #FFFFFF00;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.nav {
+  width: auto;
+  padding: 20px;
+  background: #1C1C1E;
+  border-radius: 0 0 15px 15px;
+  margin: -13px -13px 25px -13px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  height: 40px;
+  width: auto;
+  font-size: 18pt;
+  font-weight: 700;
+}
+
+.footer {
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.profpic {
+  margin: 5px 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 250px;
+}
+
+#page-preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: black;
+}
+
+.list {
+  background: #1C1C1E;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+}
+
+.listitem {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 5px 15px;
+}
+
+.listitem:active {
+  background: #00000030;
+  border-radius: 0px;
+}
+
+.listpic {
+  height: 30px;
+  width: 30px;
+  margin: 3px 0;
+  background: #FFFFFF10;
+  border-radius: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  border: 1px solid #FFFFFF20;
+}
+
+.border {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+}
+
+.listdesc {
+  font-size: 12px;
+  color: #98989F;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: auto;
+  margin: auto 0;
+}
+
+.listinfo {
+  color: white;
+  margin: auto 18px;
+  vertical-align: middle;
+}
+
+.listicon {
+  color: #5A5A5E;
+  margin: auto 0 auto auto;
+  font-size: 14px;
+}
+
+.row {display: flex; flex-direction: row;}
+.listname {font-weight: 500;}
+.headname {font-size: 20px; font-weight: 600;}
+.headdesc {font-size: 10px; font-weight: 500;}
+.tg {background: #34aadf;}
+.vk {background: #0077FF;}
+.spotify {background: #1DB954;}
+.gitlab {background: #FC6D26;}
+.tinkoff {background: #FFDD2D;}
+.sber {background: #1BA135;}
+.qiwi {background: #FF8C00;}
+.cloud {background: rgb(10, 132, 255);}
+.fonts {background: rgb(255, 69, 58);}
+.email {background: rgb(255, 159, 10);}
+.playlist {background: rgb(94, 92, 230);}
+.chat {background: rgb(10, 132, 255);}
+.code {background: rgb(52, 199, 89);}
+
+.authorship {
+  color: #98989F;
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+.divider {
+  background: #2D2D2F;
+  height: 0.5px;
+  margin-left: 66px;
+}
+
+.vert-divider {
+  margin: auto 10px;
+  background: #2D2D2F;
+  height: 15px;
+  width: 0.5px;
+}
